@@ -11,7 +11,9 @@
     justify-content: space-around;
     height:100% ;
     width: 100%;
+    
 }
+
 .input{
     width:400px ;
     margin-right:90px ;
@@ -59,11 +61,20 @@ h1 span {
                   0 0 300px #b700ff;
     }
     5%,95% {
-      color: #111;
+      color: rgb(17, 17, 17);
       filter: blur(0px);
       text-shadow: none;
     }
   }
-  
+  .li{
+    text-decoration: none;
+    color: #ff00d4d5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px ;
+    margin-top:15px ;
+    font-family: 'Rubik Bubbles', cursive;
+    
+
+  }
 
 

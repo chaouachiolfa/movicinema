@@ -42,7 +42,7 @@ return (
         <Button variant="secondary" onClick={handleClose}>
           Close
         </Button>
-        <Button variant="primary" onClick={handleSubmit}>
+        <Button variant="primary" onClik={handleSubmit}>
           Save Changes
         </Button>
      

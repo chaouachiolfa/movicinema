@@ -2,6 +2,7 @@ import React from 'react'
 import './MoviList.css'
 import MoviCart from '../MoviCart/MoviCart'
 
+
 const MoviList = ({data , title , rate }) => {
   
   return (
@@ -15,7 +16,7 @@ const MoviList = ({data , title , rate }) => {
    
 }
 
-
+ 
     </div>
   )
 }

@@ -1,7 +1,10 @@
 import React from 'react'
 import { Navbar  } from 'react-bootstrap';
 import ReactStars from "react-rating-stars-component";
+import { Link } from 'react-router-dom';
+
 import './MyNav.css';
+
 
 
 const MyNav = ({hdTitre , hdRate }) => {
@@ -16,7 +19,7 @@ const MyNav = ({hdTitre , hdRate }) => {
     <div >
       
 
-<Navbar className='nav'  bg="black" variant="black">
+<Navbar className='nav'  bg="blue" variant="black">
 
 
     <section className='nav' >
@@ -29,6 +32,11 @@ const MyNav = ({hdTitre , hdRate }) => {
   <span>s</span>
  
 </h1>
+
+  <Link className='li' to="/MoviList">Movi List</Link>
+
+  
+
     <input className='input' type="text" placeholder='search '  onChange={hdChange}/>
     
   <ReactStars
